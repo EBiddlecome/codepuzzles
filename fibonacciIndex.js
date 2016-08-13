@@ -13,12 +13,13 @@ var fibonacciIndex = function(n) {
   } else {
     
     //start at the 2 index position, the second "1" in the series
-    //iterate forwards, adding the previous two number values and setting the next index at its corresponding successive Fib #
+    //iterate forwards, adding previous two values 
+    //and setting next index to its corresponding successive Fib #
     //stop looping at or before n position
     for (var i = 2; i <= n; i++) {
       //present value is previous two values added together
       c = a + b;
-      //reassign variables as we count up in Fib # series
+      //reassign variables as we iterate forward in Fib # series
       a = b;
       b = c;
     }

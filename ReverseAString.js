@@ -1,4 +1,5 @@
 //display the characters in a string in reverse order
+
 function reverse(string) {
 	//define our caching variable
 	var backwards = '';
@@ -13,5 +14,6 @@ function reverse(string) {
 	return backwards;
 };
 
+//test case
 var str = 'abcdefg';
 console.log(reverse(str));

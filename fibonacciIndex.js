@@ -1,7 +1,7 @@
 //Return the value that would be present at a passed in index (n), if we were looking at an array consisting of the Fibonacci sequence 
 
 var fibonacciIndex = function(n) {
-	//set variables for the first 3 numbers in the Fib # series
+  //set variables for the first 3 numbers in the Fib # series
   var a = 0;
   var b = 1;
   var c = 1;

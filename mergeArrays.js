@@ -1,10 +1,5 @@
 //Given two arrays as input, return them combined as a single array arranged in ascending order
 
-//define a test case
-//included 0, 10, -11 to make sure we 
-var a = [6, 9, 2, 1, 9, 0];
-var b = [10, 7, -11, 3, 4];
-
 var mergeArrays = function (a, b) {
   //iterate through the first array
   for (var i = 0; i < a.length; i++) {
@@ -18,4 +13,9 @@ var mergeArrays = function (a, b) {
   });
 };
 
-console.log(mergeArrays(a, b));
+//define a test case
+//including 0, 10, -11 to make sure we handle all cases
+// var a = [6, 9, 2, 1, 9, 0];
+// var b = [10, 7, -11, 3, 4];
+
+// console.log(mergeArrays(a, b));

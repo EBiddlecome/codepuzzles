@@ -19,8 +19,8 @@ var reverseSentence = function (sentence) {
   return reversed;
 };
 
-//test case
-var phrase = 'When the hoomans are away, the dogs will play';
+// test case
+// var phrase = 'When the hoomans are away, the dogs will play';
 
-console.log(reverseSentence(phrase));
+// console.log(reverseSentence(phrase));
 

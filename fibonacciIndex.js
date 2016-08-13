@@ -1,4 +1,5 @@
-//Return the value that would be present at a passed in index (n), if we were looking at an array consisting of the Fibonacci sequence 
+//Return the value that would be present at a passed in index (n), 
+//if we were looking at an array consisting of the Fibonacci sequence 
 
 var fibonacciIndex = function(n) {
   //set variables for the first 3 numbers in the Fib # series
@@ -11,7 +12,7 @@ var fibonacciIndex = function(n) {
     return 0;
   } else {
     
-    //start at the 2 index position, the second "1"
+    //start at the 2 index position, the second "1" in the series
     //iterate forwards, adding the previous two number values and setting the next index at its corresponding successive Fib #
     //stop looping at or before n position
     for (var i = 2; i <= n; i++) {

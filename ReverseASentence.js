@@ -2,20 +2,20 @@
 
 var reverseSentence = function (sentence) {
 
-	//split the sentence into words, using spaces as separator
+  //split the sentence into words, using spaces as separator
   var words = sentence.split(' ');
 
-	//define caching variable
+  //define caching variable
   var reversed = ' ';
 
-	//iterate backwards through the words in the sentence
+  //iterate backwards through the words in the sentence
   for (var i = words.length - 1; i >= 0; i--) {
 
-		//add each word to the cache
+    //add each word to the cache
     reversed += words[i] + ' ';
   }
 
-	//return cache contents, which will be the words listed in reverse
+  //return cache contents, which will be the words listed in reverse
   return reversed;
 };
 

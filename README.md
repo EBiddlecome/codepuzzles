@@ -1,6 +1,6 @@
-# CodePuzzles
+# Code Puzzles
 
-Solutions to common problems || Iterative self improvement via the algorithmic approach
+Varied approaches to classic problems || Iterative self improvement via the algorithmic approach
 
 ## JavaScript
 

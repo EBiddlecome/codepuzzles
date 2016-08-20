@@ -1,4 +1,7 @@
-//display the characters in a string in reverse order
+//Display the characters in a string in reverse order
+
+//define test case
+//var str = 'abcdefg';
 
 var reverseString = function (string) {
 
@@ -17,6 +20,4 @@ var reverseString = function (string) {
   return backwards;
 };
 
-// test case
-// var str = 'abcdefg';
-// console.log(reverseString(str));
+//reverseString(str);

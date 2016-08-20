@@ -16,7 +16,7 @@ var isPermutation = function(string1, string2) {
   var s1 = string1.split('').sort().toString();
   var s2 = string2.split('').sort().toString();
   //print true or false in the console based on equality
-  console.log(s1 === s2);
+  return (s1 === s2) ? true : false;
 };
 
 //iterative:
@@ -46,4 +46,4 @@ var isPermutation = function(string1, string2) {
 
 //test
 
-isPermutation(stringA, stringD);
+isPermutation(stringA, stringB);

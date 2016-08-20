@@ -1,4 +1,7 @@
-//display the words in a sentence in reverse order
+//Display the words in a sentence in reverse order
+
+//define a test case:
+//var phrase = 'When the hoomans are away, the dogs will play';
 
 var reverseSentence = function (sentence) {
 
@@ -19,8 +22,5 @@ var reverseSentence = function (sentence) {
   return reversed;
 };
 
-// test case
-// var phrase = 'When the hoomans are away, the dogs will play';
-
-// console.log(reverseSentence(phrase));
+//reverseSentence(phrase);
 

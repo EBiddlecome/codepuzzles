@@ -2,7 +2,7 @@
 
 Varied approaches to classic problems || Iterative self improvement via the algorithmic approach
 
-## JavaScript
+## [JavaScript](./JavaScript)
 
 1. [Reverse A String](./JavaScript/reverseAString.js): Display the characters of a string in reverse order
 2. Reverse A Sentence: Display the words in a sentence in reverse order

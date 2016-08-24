@@ -19,15 +19,15 @@ $str = 'abcdefg';
 * Iterate backwards through string, 
 * outputting each character in reverse.
 */
-function reverseString($string){
+function reverse_string($string){
   $length = strlen($string);
 
-  for ($i = $length-1; $i >= 0; $i--) {
+  for ($i = $length; $i >= 0; $i--) {
     echo $string[$i-1];
   }
 }
 /*
 * Test output: gfedcba
 */
-reverseString($str);
+reverse_string($str);
 ?>

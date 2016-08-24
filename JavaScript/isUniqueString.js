@@ -2,9 +2,7 @@
 
 
 //declare test cases:
-
 //function should return true if all letters in string are unique
-
 var string1 = 'cdZaF130';
 var string2 = 'abc';
 var string3 = 'ab   c';
@@ -13,8 +11,8 @@ var string5 = 'a';
 
 
 var isUnique = function(str) {
-	//use an object for character comparison storage
-	//hashmap
+  //use an object for character comparison storage
+  //hashmap
   var chars = {};
 
   //loop though the string

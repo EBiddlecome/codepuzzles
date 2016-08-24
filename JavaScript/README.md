@@ -12,3 +12,8 @@ Varied approaches to classic problems || Iterative self improvement via the algo
 6. Is Permutation: Given two strings, write a method to decide if one is a permutation of the other.
 7. Fibonacci Index Iterative: Return the value that would be present at n index in the Fibonnacci sequence
 8. Fibonacci Index Recursive: Return the value that would be present at n index in the Fibonnacci sequence
+
+
+## PHP
+
+1. Reverse A String: Display the characters of a string in reverse order

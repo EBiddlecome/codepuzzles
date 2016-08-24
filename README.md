@@ -14,6 +14,6 @@ Varied approaches to classic problems || Iterative self improvement via the algo
 8. [Fibonacci Index Recursive](./JavaScript/fibonacciIndexRecursive.js): Return the value that would be present at n index in the Fibonnacci sequence
 
 
-## [PHP](,/PHP)
+## [PHP](./PHP)
 
 1. [Reverse A String](./PHP/reverseAString.php): Display the characters of a string in reverse order

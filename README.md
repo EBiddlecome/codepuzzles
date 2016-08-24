@@ -17,3 +17,8 @@ Varied approaches to classic problems || Iterative self improvement via the algo
 ## [PHP](./PHP)
 
 1. [Reverse A String](./PHP/reverse_string.php): Display the characters of a string in reverse order
+
+
+## Python
+
+1. [Reverse A String](./Python/reverse_string.py): Display the characters of a string in reverse order

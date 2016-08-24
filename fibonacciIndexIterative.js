@@ -1,6 +1,9 @@
 //Return the value that would be present at a passed in index (n), 
 //if we were looking at an array consisting of the Fibonacci sequence 
 
+
+//Iterative solution: 
+
 var fibonacciIndex = function(n) {
   //set variables for the first 3 numbers in the Fib # series
   var a = 0;
@@ -28,4 +31,14 @@ var fibonacciIndex = function(n) {
   }
 };
 
-console.log(fibonacciIndex(9));
+
+//test:
+
+//returns 3
+fibonacciIndex(4);
+
+//returns 34
+fibonacciIndex(9);
+
+//returns 832040
+fibonacciIndex(30);

@@ -1,12 +1,16 @@
 // Given two strings,write a method to decide if one is a permutation of the other.
 
+
 //define test cases:
-//stringB is permutation of stringA
+
+//if permutation, should return true
+//case insensitive
 
 var stringA = 'dog day afternoon';
 var stringB = 'a tragedy nonfood';
-var stringC = 'unique phrase';
+var stringC = 'doge Ya Daoonftrn';
 var stringD = 'dog   day   afternoon';
+
 
 //fast, with native methods:
 
@@ -18,6 +22,7 @@ var isPermutation = function(string1, string2) {
   //print true or false in the console based on equality
   return (s1 === s2) ? true : false;
 };
+
 
 //iterative:
 
@@ -44,6 +49,17 @@ var isPermutation = function(string1, string2) {
   }
 };
 
-//test
 
+//test:
+
+//returns true
 isPermutation(stringA, stringB);
+
+//returns true
+isPermutation(stringA, stringC);
+
+//returns false
+isPermutation(stringA, stringD);
+
+//returns true
+isPermutation(stringB, stringC);

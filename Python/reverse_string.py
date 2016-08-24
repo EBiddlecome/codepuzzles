@@ -18,8 +18,8 @@ print ''.join(reversed(string))
 # Iterative:
 #
 def reverse_string(string):
-	reversed = ''
-	for characters in string:
-	  reversed = characters + reversed
-	return reversed
+  reversed = ''
+  for characters in string:
+    reversed = characters + reversed
+  return reversed
 print reverse_string(string)

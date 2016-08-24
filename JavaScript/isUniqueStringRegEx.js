@@ -15,11 +15,9 @@ var string5 = 'a';
 //Solved with RegEx three slightly different ways:
 
 var isUnique = function(str) {
-	//check for duplicates w/regex!
-
-	//dot matches any single character except line terminators
-	//is character appearing more than once? 
- //capture all characters to group check against 
+  //dot matches any single character except line terminators
+  //is character appearing more than once? 
+  //capture all characters to group to check against 
   var duplicates = /(.)\1/;
   //running this will return true if there are duplicates
   //invert the returned boolean to match our desired output

@@ -4,6 +4,15 @@
 //define test case:
 var str = 'abcdefg';
 
+//Fast, using native array reverse method:
+
+var reverseString = function (string) {
+  //split string into characters, reverse array,
+  //then join characters back into string to display in reverse
+  return string.split('').reverse().join('');
+};
+
+//Iterative Solution:
 
 var reverseString = function (string) {
 
@@ -26,4 +35,4 @@ var reverseString = function (string) {
 //test:
 
 //returns 'gfedcba'
-reverseString(str);
+console.log(reverseString(str));

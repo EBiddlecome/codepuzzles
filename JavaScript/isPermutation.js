@@ -27,7 +27,7 @@ var isPermutation = function(string1, string2) {
 //iterative:
 
 var isPermutation = function(string1, string2) {
-	//split the strings into arrays, sort by character
+  //split the strings into arrays, sort by character
   var s1 = string1.split('').sort();
   var s2 = string2.split('').sort();
 
